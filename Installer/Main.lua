@@ -542,7 +542,7 @@ addStage(function()
 	workspace:draw()
 	
 	EEPROMProxy.set(request(EFIURL))
-	EEPROMProxy.setLabel("MacOS EFI")
+	EEPROMProxy.setLabel("BootX")
 	EEPROMProxy.setData(selectedFilesystemProxy.address)
 
 	-- Downloading files
