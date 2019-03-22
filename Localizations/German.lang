@@ -64,7 +64,7 @@
 	newFile = "Datei",
 	newFileFromURL = "Datei von URL",
 	newImage = "Bild",
-	newApplication = "MineOS Anwendung",
+	newApplication = "MacOS Anwendung",
 	paste = "Einfügen",
 	copy = "Kopieren",
 	cut = "Schneiden",
