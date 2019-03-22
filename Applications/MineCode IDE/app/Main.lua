@@ -74,7 +74,7 @@ local saveContextMenuItem
 local cursorUptime = computer.uptime()
 local scriptCoroutine
 local currentScriptDirectory = filesystem.path(system.getCurrentScript())
-local configPath = paths.user.applicationData .. "Solice IDE/Config9.cfg"
+local configPath = paths.user.applicationData .. "MineCode IDE/Config9.cfg"
 local localization = system.getLocalization(currentScriptDirectory .. "Localizations/")
 local findStartFrom
 local clipboard
@@ -1582,7 +1582,7 @@ MineCodeContextMenu:addItem(localization.about).onTouch = function()
 	local container = addBackgroundContainer(localization.about)
 	
 	local about = {
-		"Solice IDE",
+		"MineCode IDE",
 		"Copyright © 2014-2018 ECS Inc.",
 		" ",
 		"Developers:",
