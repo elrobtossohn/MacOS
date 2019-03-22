@@ -16,7 +16,7 @@
 	customize = "Anpassen-downloads",
 	flashing = "Richte BIOS ein...",
 	creating = "Erstellen eines Benutzerprofils...",
-	installing = "Installieren",
+	installing = "Kopiere",
 	installed = "MacOS wurde installiert. Viel spaß!",
 	reboot = "Neustart",
 }

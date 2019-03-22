@@ -16,7 +16,7 @@
 	customize = "Customize Bios",
 	flashing = "Setting up EEPROM...",
 	creating = "Creating user profile...",
-	installing = "Installing",
+	installing = "Copy",
 	installed = "MacOS has been installed. Enjoy!",
 	reboot = "Reboot",
 }
