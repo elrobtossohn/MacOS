@@ -13,7 +13,8 @@ local event = require("Event")
 
 --------------------------------------------------------------------------------
 
-local host = "http://mineos.modder.pw/MineOSAPI/2.04/"
+--local host = "http://mineos.modder.pw/MineOSAPI/2.04/"
+local host = "http://os.api.solice.net/"
 local iconCheckReponseTime = 2
 
 local overviewIconsCount = 14
@@ -91,7 +92,7 @@ local leftList = window:addChild(GUI.list(1, 4, leftListPanel.width, 1, 3, 0, 0x
 
 local contentContainer = window:addChild(GUI.container(1, 1, 1, 1))
 
-local sponsoredLabel = window:addChild(GUI.text(2, 1, 0x3C3C3C, "Sponsored by McModder"))
+local sponsoredLabel = window:addChild(GUI.text(2, 1, 0x3C3C3C, "Powered by Solice.net"))
 
 local progressIndicator = window:addChild(GUI.progressIndicator(math.floor(leftListPanel.width / 2 - 1), 1, 0x3C3C3C, 0x00B640, 0x99FF80))
 

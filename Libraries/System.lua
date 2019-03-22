@@ -2417,7 +2417,7 @@ function system.updateDesktop()
 		
 		local lines = {
 			"MacOS",
-			"Copyright © 2014-" .. os.date("%Y", system.getTime()),
+			"Copyright © 2018-" .. os.date("%Y", system.getTime()),
 			" ",
 			"Developers:",
 			" ",
