@@ -177,7 +177,7 @@ local function RawAPIRequest(script, postData, notUnserialize)
 				if unserializeResult.success then
 					return unserializeResult
 				else
-					return false, "API request not succeded: " .. tostring(unserializeResult.reason)
+					return false, "API request not succeded: " .. tostring(unserializeResult.reason) .. " (" .. host .. script .. ".php)"
 				end
 			else
 				return false, "Failed to unserialize response data: " .. tostring(unserializeReason)
