@@ -14,7 +14,7 @@ local event = require("Event")
 --------------------------------------------------------------------------------
 
 --local host = "http://mineos.modder.pw/MineOSAPI/2.04/"
-local host = "http://os.api.solice.net/"
+local host = "http://appstore.macos.solice.net/"
 local iconCheckReponseTime = 2
 
 local overviewIconsCount = 14
