@@ -604,7 +604,7 @@ addStage(function()
 		if id then
 			versions[id] = {
 				path = OSPath .. path,
-				version = "1.0",
+				version = 1,
 			}
 		end
 
