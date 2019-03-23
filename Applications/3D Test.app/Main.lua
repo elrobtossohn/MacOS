@@ -368,7 +368,7 @@ workspace:addChild(OCGLView)
 
 workspace.infoTextBox = workspace:addChild(GUI.textBox(2, 4, 45, workspace.height, nil, 0xEEEEEE, {}, 1, 0, 0))
 local lines = {
-	"Copyright © 2018-2019 - Developed by ECS Inc.",
+	"Copyright © 2018-2019 - Developed by Solice Inc.",
 	"Paul B. (Twitter.com/elrobtossohn)",
 	"All rights reserved",
 }

@@ -2417,19 +2417,15 @@ function system.updateDesktop()
 		
 		local lines = {
 			"MacOS",
-			"Copyright © 2018-" .. os.date("%Y", system.getTime()),
+			"Copyright © 2018-2019",
 			" ",
 			"Developers:",
 			" ",
 			"Paul B., Twitter.com/elrobtossohn",
 			" ",
-			"UX-advisers:",
-			" ",
-			"Paul B., Twitter.com/elrobtossohn",
-			" ",
 			"Translators:",
 			" ",
-			"Paul B., Twitter.com/elrobtossohn",
+			"- No Translator currently",
 		}
 
 		local textBox = container.layout:addChild(GUI.textBox(1, 1, container.layout.width, #lines, nil, 0xB4B4B4, lines, 1, 0, 0))
