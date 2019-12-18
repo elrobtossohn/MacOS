@@ -117,7 +117,7 @@ function system.getDefaultUserSettings()
 		
 		tasks = {},
 		dockShortcuts = {
-			filesystem.path(paths.system.applicationAppMarket),
+			filesystem.path(paths.system.applicationAppStore),
 			filesystem.path(paths.system.applicationMineCodeIDE),
 			filesystem.path(paths.system.applicationFinder),
 			filesystem.path(paths.system.applicationPictureEdit),
@@ -2417,7 +2417,8 @@ function system.updateDesktop()
 		
 		local lines = {
 			"MacOS",
-			"Copyright © 2018-2019",
+			"Version: 1.0",
+			"Copyright © 2019-2020",
 			" ",
 			"Developers:",
 			" ",
@@ -2436,7 +2437,7 @@ function system.updateDesktop()
 	end
 
 	MineOSContextMenu:addItem(localization.updates).onTouch = function()
-		system.execute(paths.system.applicationAppMarket, "updates")
+		system.execute(paths.system.applicationAppStore, "updates")
 	end
 
 	MineOSContextMenu:addSeparator()
