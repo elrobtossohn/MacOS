@@ -13,7 +13,7 @@ local event = require("Event")
 
 --------------------------------------------------------------------------------
 
-local host = "http://appstore.macos.solice.net/"
+local host = "https://appstore.api.nexus.smochy.de/"
 local iconCheckReponseTime = 2
 
 local overviewIconsCount = 14
