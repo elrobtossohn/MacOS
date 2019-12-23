@@ -1333,6 +1333,9 @@ newPublicationInfo = function(file_id)
 
 					for i = 1, #publication.all_dependencies do
 						local dependency = publication.dependencies_data[publication.all_dependencies[i]]
+						if dependency == nil then
+							GUI.alert('The Dpendencies ID is '..i)
+						end
 						if dependency.publication_name then
 							local textLength = unicode.len(dependency.publication_name)
 							if x + textLength + 4 > textDetailsContainer.width - 4 then
