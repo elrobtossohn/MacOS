@@ -145,6 +145,10 @@ local function loadConfig()
 	messagesItem.hidden = not user.token
 end
 
+local function isempty(s)
+	return s == nil or s == ''
+end
+
 --------------------------------------------------------------------------------
 
 local function RawAPIRequest(script, postData, notUnserialize)
@@ -1333,7 +1337,7 @@ newPublicationInfo = function(file_id)
 
 					for i = 1, #publication.all_dependencies do
 						local dependency = publication.dependencies_data[publication.all_dependencies[i]]
-						if dependency == nil then
+						if isempty(dependency) then
 							GUI.alert('The Dpendencies ID is '..i)
 						end
 						if dependency.publication_name then
