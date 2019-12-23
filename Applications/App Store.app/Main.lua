@@ -1338,7 +1338,7 @@ newPublicationInfo = function(file_id)
 					for i = 1, #publication.all_dependencies do
 						local dependency = publication.dependencies_data[publication.all_dependencies[i]]
 						if isempty(dependency) then
-							GUI.alert('The Dpendencies ID is '..publication.all_dependencies[i])
+							GUI.alert('The Dependencies ID is '..publication.all_dependencies[i])
 						end
 						if dependency.publication_name then
 							local textLength = unicode.len(dependency.publication_name)
